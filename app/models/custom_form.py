@@ -3,6 +3,7 @@ import json
 from sqlalchemy.event import listens_for
 from sqlalchemy.schema import UniqueConstraint
 
+
 from app.api.helpers.utilities import to_snake_case
 from app.models import db
 
